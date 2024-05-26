@@ -67,8 +67,62 @@ export const games = [
   },
   {
     title: 'Cladder',
-    link: 'https://playcladder.com/',
+    link: 'https://playcladder.com',
     author: '',
     logo: '/images/cladder.png'
+  },
+  {
+    title: 'Spotle',
+    link: 'https://spotle.io',
+    author: '',
+    logo: '/images/spotle.png'
+  },
+  {
+    title: 'Worwordle',
+    link: 'https://worwordle.netlify.app',
+    author: '',
+    logo: '/images/worwordle.png'
+  },
+  {
+    title: 'Plus word',
+    link: 'https://www.telegraph.co.uk/news/plusword',
+    author: 'The Telegraph UK',
+    logo: '/images/plusword.png'
+  },
+  {
+    title: 'Searchle',
+    link: 'https://searchle.net',
+    author: '',
+    logo: '/images/searchle.png'
+  },
+  {
+    title: 'Word Chase',
+    link: 'https://wordchase.semantle.com',
+    author: '',
+    logo: '/images/wordchase.png'
+  },
+  {
+    title: 'Phrazle',
+    link: 'https://phrazle.gg',
+    author: '',
+    logo: '/images/phrazle.png'
+  },
+  {
+    title: 'Squares',
+    link: 'https://squares.org',
+    author: '',
+    logo: '/images/squares.png'
+  },
+  {
+    title: 'unwordle',
+    link: 'https://unwordle.org/',
+    author: '',
+    logo: '/images/unwordle.png'
+  },
+  {
+    title: 'combinations',
+    link: 'https://combinations.org/',
+    author: '',
+    logo: '/images/combinations.png'
   }
 ]
