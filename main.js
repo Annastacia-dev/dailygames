@@ -16,6 +16,10 @@ games.forEach((game) => {
   gameLink.target="_blank"
   gameLink.innerHTML = 'Play'
 
+  gameImage.title = `By ${game.author}`
+  gameTitle.title = `By ${game.author}`
+  gameLink.title = `By ${game.author}`
+
   gameContainer.classList.add('game-container')
   gameTitle.classList.add('game-title')
   gameImage.classList.add('game-image')
