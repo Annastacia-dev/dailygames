@@ -1,5 +1,5 @@
 import './style.css'
-import { games } from './public/data/games'
+import { games } from './data/games'
 
 console.log(games)
 
