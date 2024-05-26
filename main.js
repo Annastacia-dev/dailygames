@@ -1,8 +1,6 @@
 import './style.css'
 import { games } from './data/games'
 
-console.log(games)
-
 const gamesContainer = document.getElementById("games")
 
 games.forEach((game) => {
