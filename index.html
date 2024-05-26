@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daily Word Games</title>
+    <title>Daily Games</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="bg-gray-50">
+
+    <div class="px-12 py-5">
+      <div  class="flex flex-col  gap-10 py-10">
+
+        <div class="flex items-center gap-3">
+            <img src="logo.png" class="w-8" />
+          <p>[A collection of daily games]</p>
+
+        </div>
+
+        <div class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-5" id="games"></div>
+
+      </div>
+    </div>
+
+    <footer class="absolute bottom-0 flex justify-center items-center bg-primary w-full p-3 text-white">
+      A list of fun games to play daily | by <a href="https://www.annastacia.dev" target="_blank" class="underline font-semibold ml-1">annastacia</a>
+    </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
