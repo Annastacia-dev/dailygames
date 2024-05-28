@@ -23,6 +23,10 @@ games.forEach((game) => {
   gameImage.classList.add('game-image')
   gameLink.classList.add('game-link')
 
+  gameContainer.addEventListener("click", () => {
+    window.open(game.link, "_blank")
+  })
+
   gameContainer.append(gameImage)
   gameContainer.append(gameTitle)
   gameContainer.append(gameLink)

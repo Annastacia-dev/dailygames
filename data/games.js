@@ -115,14 +115,20 @@ export const games = [
   },
   {
     title: 'unwordle',
-    link: 'https://unwordle.org/',
+    link: 'https://unwordle.org',
     author: '',
     logo: '/images/unwordle.png'
   },
   {
     title: 'combinations',
-    link: 'https://combinations.org/',
+    link: 'https://combinations.org',
     author: '',
     logo: '/images/combinations.png'
+  },
+  {
+    title: 'swiftle',
+    link: 'https://www.techyonic.co/swiftle',
+    author: 'techyonic',
+    logo: '/images/swiftle.png'
   }
 ]
