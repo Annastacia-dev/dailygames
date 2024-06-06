@@ -4,7 +4,9 @@ import { games } from './data/games'
 const gamesContainer = document.getElementById("games")
 
 games.forEach((game) => {
-  const gameContainer = document.createElement('div')
+  const gameContainer = document.createElement('a')
+  gameContainer.href = game.link
+  gameContainer.target = "_blank"
   const gameTitle = document.createElement('h5')
   gameTitle.innerHTML = game.title
   const gameImage = document.createElement('img')
@@ -23,9 +25,6 @@ games.forEach((game) => {
   gameImage.classList.add('game-image')
   gameLink.classList.add('game-link')
 
-  gameContainer.addEventListener("click", () => {
-    window.open(game.link, "_blank")
-  })
 
   gameContainer.append(gameImage)
   gameContainer.append(gameTitle)
